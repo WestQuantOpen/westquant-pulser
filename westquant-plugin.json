@@ -1,0 +1,30 @@
+{
+  "plugin": {
+    "id": "westquant.pulser",
+    "version": "0.1.0a1",
+    "api_version": "0.1"
+  },
+  "framework": {
+    "name": "pulser",
+    "supported_versions": ">=1.0"
+  },
+  "capabilities": {
+    "import": [
+      "layout",
+      "control"
+    ],
+    "transformations": [
+      "register_layout",
+      "atom_mapping",
+      "waveform",
+      "schedule"
+    ],
+    "evaluators": [
+      "geometry",
+      "duration",
+      "hardware_validity"
+    ],
+    "repgraph_export": true,
+    "wqt_policy": false
+  }
+}
